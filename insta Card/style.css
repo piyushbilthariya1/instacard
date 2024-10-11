@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495057;
+}
+
+.profile-box {
+    height: 425px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pic {
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.username {
+    height: 24px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    margin-top: -37px;
+    rotate: -5deg;
+}
+
+h3 {
+    font-family: 'Khand';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.profile-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Changa';
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+p {
+    font-family: 'Noto Sans Cherokee';
+    font-size: 12px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.share {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Changa';
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
